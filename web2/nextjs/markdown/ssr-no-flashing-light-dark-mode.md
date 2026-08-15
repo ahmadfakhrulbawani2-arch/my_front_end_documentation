@@ -6,6 +6,12 @@ So there's many concepts of rendering in NextJS. Me personally only understand C
 
 Demo video: [youtube](https://youtu.be/Uw5a5GbK8-c)
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=Uw5a5GbK8-c">
+    <img src="https://img.youtube.com/vi/Uw5a5GbK8-c/0.jpg" alt="Demo Toggle Theme Dark and Light Mode" width="80%" />
+  </a>
+</p>
+
 ## Problem & Description
 
 1. You need CSR components like navbar to handle theme toggle interactivity. But you need to know `does the client use light or dark mode?`
