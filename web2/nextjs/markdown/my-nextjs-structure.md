@@ -37,6 +37,8 @@ src/
 |   |--- services/
 |   |--- stores/
 |   |--- styles/
+|   |--- types/
+|   |   |--- schemas/
 |   |--- utils/
 ```
 
@@ -67,7 +69,8 @@ src/
 8. `services/` store the business logic to manage data. I don't use it much as my Back-end already handle this feature.
 9. `stores/` store the configuration for accessing localstorage or cookies. I usually create LocalJwt.ts to check my jwt or CookieTheme.ts to check my theme cookie.
 10. `styles/` store all `.css` outside `globals.css` for modularity of css file.
-11. `utils/` store all ui logic or small development logic that is frequently used to reduce line of code.
+11. `types/` store all data types and structure. I also add `schemas/` to add my zod validation schema for form and user input. When it comes to data fetching, I only use typescript types cause back-end already simplifies it.
+12. `utils/` store all ui logic or small development logic that is frequently used to reduce line of code.
 
 From here, some people actually make `feature/` to store some of the folder above. But in my opinion, exposing all folder is as declarative way as possible for project structure clarity. That's it, now you can play around to check this topic [here](../playground/my-nextjs-structure/)
 
